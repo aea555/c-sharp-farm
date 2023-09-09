@@ -12,5 +12,6 @@ namespace WindowsFormsApp1.Interfaces
     {
         void Produce(ProgressBar pb, Timer t, ProductStore ps, string type);
         void Kill();
+        int SetHealth(ProgressBar pb, Timer t);
     }
 }

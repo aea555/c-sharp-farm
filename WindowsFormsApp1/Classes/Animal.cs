@@ -64,16 +64,18 @@ namespace WindowsFormsApp1.Classes
         {
             this.isAlive = false;
         }
-        public void SetHealth(ProgressBar pb, Timer t)
+        public int SetHealth(ProgressBar pb, Timer t)
         {
             if (pb.Value == 0)
             {
                 t.Stop();
                 Kill();
+                return 0;
             } else
             {
                 pb.Value -= 1000;
                 age += 0.2;
+                return 1;
             }
         }
     }

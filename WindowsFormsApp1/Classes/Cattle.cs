@@ -8,7 +8,7 @@ namespace WindowsFormsApp1.Classes
 {
     internal class Cattle : Animal
     {
-        public string AnimalType = Type.Cattle.ToString();
-        public static int Lifespan = 50000;
+        public static string AnimalType = Type.Cattle.ToString();
+        public static int Lifespan = 60000;
     }
 }

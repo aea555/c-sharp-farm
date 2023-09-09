@@ -7,20 +7,13 @@ using WindowsFormsApp1.Interfaces;
 
 namespace WindowsFormsApp1.Classes
 {
-    internal class Product : IProduct
+    internal class Product
     {
         public enum ProductType
         {
             CattleProduct,
             SmallCattleProduct,
             PoultryProduct
-        }
-
-        public int Price;
-
-        public void Sell()
-        {
-
         }
     }
 }
